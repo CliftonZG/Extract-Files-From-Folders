@@ -101,3 +101,4 @@ if __name__ == "__main__":
                 raise Exception("No Folder selected or folder does not exists.")
         else:
             raise Exception("No Folder selected or folder does not exists.")
+        root.destroy()
