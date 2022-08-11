@@ -1,12 +1,12 @@
 # Extract-Files-From-Folders
 Extract files from folders but in Python
 
-Directly open/run the python file, and it will open a tkinter file dialog window two times. The first time, is where you will need to select the root folder with the sub-folders to extract files from. The second time, is where all the files will be extracted into.
+Directly open/run the python file, and it will open a tkinter file dialog window two times. The first time, is where you will need to select the root folder with the sub-folders to extract files from. The second time, is where all the files will be extracted into. However by default, it will only copy files.
 
 Alternatively use the terminal by running:
 python extract_folders.py -src "" -dst ""
 
-Example
+Example:  
 python extract_folders.py -src "C:\Users\Anon\Pictures\GIF" -dst "C:\Users\Anon\Desktop\Extracted_GIFs"
 
 Arguements:  
